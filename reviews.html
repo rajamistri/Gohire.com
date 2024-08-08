@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ride - Car Rental Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="img/LOGO.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <a href="index.html" class="logo"><img src="img/LOGO.png" alt="" /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ride.html">Ride</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+      <div class="header-btn">
+        <a href="signup.html" class="sign-up">Sign Up</a>
+        <a href="signin.html" class="sign-in">Sign In</a>
+      </div>
+    </header>
+
+    <!-- Review Section -->
+    <section class="review" id="review">
+      <div class="heading">
+        <span>Reviews</span>
+        <h1>What Customer Says About us</h1>
+      </div>
+
+      <div class="review-container" data-aos="zoom-in-down">
+        <div class="box">
+          <div class="review-img">
+            <img src="img/rev1.jpg" alt="" />
+          </div>
+          <h2>Raja Mistri</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+          </div>
+          <p>
+            "Exceptional service! The car was clean and in excellent condition.
+            Highly recommended!"
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="review-img">
+            <img src="img/rev2.jpg" alt="" />
+          </div>
+          <h2>Musarab Gain</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            "Great selection of cars to choose from. The reservation process was
+            easy, and the staff was friendly."
+          </p>
+        </div>
+
+        <div class="box">
+          <div class="review-img">
+            <img src="img/rev3.jpg" alt="" />
+          </div>
+          <h2>Jewel Mondal</h2>
+          <div class="stars">
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star"></i>
+            <i class="bx bxs-star-half"></i>
+          </div>
+          <p>
+            "I've been renting from this company for years, and I've never been
+            disappointed."
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer-container">
+      <p>@All Right Reserved To GOHIRE.COM</p>
+      <div class="icon">
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="#ride"><i class="bx bx-chevrons-up"></i></a>
+      </div>
+    </div>
+
+    <!-- Js file -->
+    <script src="common.js"></script>
+    <!-- ASo Animation JS file -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+  </body>
+</html>

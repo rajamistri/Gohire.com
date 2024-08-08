@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental Website</title>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- bootstrap css cdn -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/LOGO.png" />
+    <!-- Aso Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <a href="#" class="logo"><img src="img/LOGO.png" alt="" /></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="ride.html">Ride</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+      <div class="header-btn">
+        <a href="form.html" class="sign-up">Sign Up</a>
+        <a href="#" class="sign-in">Sign In</a>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="text" data-aos="fade-in">
+        <h1><span>Searching</span>for <br />rented car</h1>
+        <p>
+          "Welcome to gohire.com ! Your journey begins here. Explore our premium
+          rental cars."
+        </p>
+        <div class="app-stores">
+          <a href="https://play.google.com/" target="_blank">
+            <img src="img/ios.png" alt="" />
+          </a>
+          <a href="https://www.apple.com/in/app-store/" target="_blank">
+            <img src="img/playstore.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form section -->
+    <div class="form-container">
+      <form action="">
+        <div class="input-box">
+          <span>Location</span>
+          <input type="search" placeholder="Search Place" />
+        </div>
+        <div class="input-box">
+          <span>Pick-up Date</span>
+          <input type="date" />
+        </div>
+
+        <div class="input-box">
+          <span>Return Date</span>
+          <input type="date" />
+        </div>
+        <input type="submit" value="Submit" class="btn" />
+      </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-container">
+      <p>@All Right Reserved To GOHIRE.COM</p>
+
+      <div class="icon">
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="#home"><i class="bx bx-chevrons-up"></i></a>
+      </div>
+    </div>
+
+    <!-- Js file -->
+    <script src="common.js"></script>
+    <!-- ASo Animation JS file -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+  </body>
+</html>

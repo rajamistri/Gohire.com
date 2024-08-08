@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ride - Car Rental Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="img/LOGO.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <a href="index.html" class="logo"><img src="img/LOGO.png" alt="" /></a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="ride.html">Ride</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+      </ul>
+      <div class="header-btn">
+        <a href="signup.html" class="sign-up">Sign Up</a>
+        <a href="signin.html" class="sign-in">Sign In</a>
+      </div>
+    </header>
+
+    <!-- Ride Section -->
+    <section class="ride" id="ride">
+      <div class="heading">
+        <span>How Its Work</span>
+        <h1>Rent With 3 Easy Steps</h1>
+      </div>
+      <div class="ride-container">
+        <div class="box" data-aos="zoom-out-down">
+          <i class="bx bxs-map"></i>
+          <h2>Choose a location</h2>
+          <p>"Where will your journey take you today?"</p>
+        </div>
+        <div class="box">
+          <i class="bx bx-calendar"></i>
+          <h2>Pick-up Date</h2>
+          <p>"Time to hit the road and create memories."</p>
+        </div>
+        <div class="box" data-aos="zoom-out-up">
+          <i class="bx bx-calendar-star"></i>
+          <h2>Book a Car</h2>
+          <p>"Unlock the door to your next adventure."</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer-container">
+      <p>@All Right Reserved To GOHIRE.COM</p>
+      <div class="icon">
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="bx bxl-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <i class="bx bxl-instagram"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank">
+          <i class="bx bxl-twitter"></i>
+        </a>
+        <a href="#ride"><i class="bx bx-chevrons-up"></i></a>
+      </div>
+    </div>
+
+    <!-- Js file -->
+    <!-- Js file -->
+    <script src="common.js"></script>
+    <!-- ASo Animation JS file -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 300,
+        duration: 1400,
+      });
+    </script>
+  </body>
+</html>
